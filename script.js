@@ -93,7 +93,7 @@ fetch('congressmen.json')
                 sendEmailLink.href = mailtoLink;
 
                 // Update the textarea to show the email body in readable form
-                emailTextArea.textContent = decodeURIComponent(emailBody).replace(/%0A/g, '\n');
+                // emailTextArea.textContent = decodeURIComponent(emailBody).replace(/%0A/g, '\n');
             } else {
                 // Reset if no valid selection
                 emailTextArea.textContent = '';

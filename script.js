@@ -10,78 +10,18 @@ fetch('congressmen.json')
         const sendEmailLink = document.getElementById('sendEmailLink');
         const emailTextArea = document.getElementById('emailText');
 
-        // Default email body text for when no specific congressman is selected
-        const defaultEmailBody = `Dear Congressman,\n\nI hope this message finds you well. As a U.S. citizen of Pakistani origin, I am writing to express my concerns as a constituent. I deeply value the commitment of Congressmen towards protecting democracy and human rights around the globe. Your recent letter to President Biden, though well-intended, does not fully account for the realities and complexities on ground and inadvertently misrepresents certain aspects of the situation.\n
-        I believe that certain aspects have been biasedly presented due to the influence of coordinated campaigns by lobbying firms hired by PTI. Pakistan’s recent elections were conducted under the supervision of international observers, including UN, and were found to meet acceptable standards without any significant concerns of fraud or irregularities.\n
-        The letter focuses on one political party and shows a clear bias. In reality, Mr. Imran Khan faces numerous criminal charges, some of which have been validated by lower courts, and his trials are ongoing in accordance with Pakistan's judicial system. I believe it may be premature to portray Mr. Khan's imprisonment as purely politically motivated or as a result of human rights violations without acknowledging the broader legal context.\n
-        Moreover, Mr. Khan's divisive political approach, including his failure to foster inclusivity and his rhetoric for civil disobedience, coupled with violent protests incited by his supporters, has resulted in a lot of instability in Pakistan.\n
-        Mr. Khan's controversial stances, such as his support for the Taliban during the U.S. military efforts in Afghanistan and his characterization of Osama bin Laden as a "martyr," have caused significant concerns both domestically and internationally (ineligibility for Oxford Chancellorship is a testimonial). Content propagated in articles of different websites cited in your letter may not have fully captured the complexities of the legal cases surrounding Mr. Khan and the broader political environment in Pakistan.\n
-        It is important to acknowledge that Pakistan's political landscape is deeply complex. The country faces numerous internal challenges, including terrorism, economic difficulties, and political instability. Any external pressure on the government may unintentionally exacerbate these issues, making it harder to foster a peaceful and stable democracy. It is essential that the U.S. continues working with all stakeholders in Pakistan, rather than imposing harsh sanctions or pressures, which might alienate important partners and destabilize the region further.\n
-        I respectfully urge you to reconsider your stance in light of the points I have raised and to consider a broader spectrum of perspectives when assessing the situation before making further decisions or statements regarding Pakistan’s internal affairs.\n\nRegards,`;
-        
-        // Display default email body initially
-        emailTextArea.textContent = defaultEmailBody;
+        // Default email body text for when no selection is made
+        const defaultEmailBody = `Dear Congressman,
+        I hope this message finds you well. As a U.S. citizen of Pakistani origin, I am writing to express my concerns as a constituent. I deeply value the commitment of Congressmen towards protecting democracy and human rights around the globe. Your recent letter to President Biden, though well-intended, does not fully account for the realities and complexities on ground and inadvertently misrepresents certain aspects of the situation.
+        I believe that certain aspects have been biasedly presented due to the influence of coordinated campaigns by lobbying firms hired by PTI. Pakistan’s recent elections were conducted under the supervision of international observers, including UN, and were found to meet acceptable standards without any significant concerns of fraud or irregularities.
+        The letter focuses on one political party and shows a clear bias. In reality, Mr. Imran Khan faces numerous criminal charges, some of which have been validated by lower courts, and his trials are ongoing in accordance with Pakistan's judicial system. I believe it may be premature to portray Mr. Khan's imprisonment as purely politically motivated or as a result of human rights violations without acknowledging the broader legal context.
+        Moreover, Mr. Khan's divisive political approach, including his failure to foster inclusivity and his rhetoric for civil disobedience, coupled with violent protests incited by his supporters, has resulted in a lot of instability in Pakistan.
+        Mr. Khan's controversial stances, such as his support for the Taliban during the U.S. military efforts in Afghanistan and his characterization of Osama bin Laden as a "martyr," have caused significant concerns both domestically and internationally.
+        It is important to acknowledge that Pakistan's political landscape is deeply complex. The country faces numerous internal challenges, including terrorism, economic difficulties, and political instability. Any external pressure on the government may unintentionally exacerbate these issues, making it harder to foster a peaceful and stable democracy. It is essential that the U.S. continues working with all stakeholders in Pakistan, rather than imposing harsh sanctions or pressures, which might alienate important partners and destabilize the region further.
+        I respectfully urge you to reconsider your stance in light of the points I have raised and to consider a broader spectrum of perspectives when assessing the situation before making further decisions or statements regarding Pakistan’s internal affairs.%0A%0ARegards,`;
 
-        // Function to get 10 random congressmen
-        function getRandomCongressmen(count) {
-            const shuffled = [...congressmen].sort(() => 0.5 - Math.random());
-            return shuffled.slice(0, count);
-        }
-
-        // Function to update the mailto link with selected or default congressmen
-        function updateMailtoLink(selectedCongressman, selectedConstituency) {
-            let selectedCongressmen;
-            let emailBody;
-
-            // Check if a specific congressman or constituency is selected
-            if (selectedCongressman || selectedConstituency) {
-                // Find the congressman based on the selection
-                const congressmanData = congressmen.find(
-                    congressman => congressman.name === selectedCongressman || congressman.constituency === selectedConstituency
-                );
-                
-                if (congressmanData) {
-                    // Specific email body for the selected congressman/constituency
-                    emailBody = `Dear ${congressmanData.name},\n\nI hope this message finds you well. As a U.S. citizen of Pakistani origin, I am writing to express my concerns as a constituent of ${congressmanData.constituency} ${congressmanData.position}. I deeply value the commitment of Congressmen towards protecting democracy and human rights around the globe. Your recent letter to President Biden, though well-intended, does not fully account for the realities and complexities on ground and inadvertently misrepresents certain aspects of the situation.\n
-                    I believe that certain aspects have been biasedly presented due to the influence of coordinated campaigns by lobbying firms hired by PTI. Pakistan’s recent elections were conducted under the supervision of international observers, including UN, and were found to meet acceptable standards without any significant concerns of fraud or irregularities.\n
-                    The letter focuses on one political party and shows a clear bias. In reality, Mr. Imran Khan faces numerous criminal charges, some of which have been validated by lower courts, and his trials are ongoing in accordance with Pakistan's judicial system. I believe it may be premature to portray Mr. Khan's imprisonment as purely politically motivated or as a result of human rights violations without acknowledging the broader legal context.\n
-                    Moreover, Mr. Khan's divisive political approach, including his failure to foster inclusivity and his rhetoric for civil disobedience, coupled with violent protests incited by his supporters, has resulted in a lot of instability in Pakistan.\n
-                    Mr. Khan's controversial stances, such as his support for the Taliban during the U.S. military efforts in Afghanistan and his characterization of Osama bin Laden as a "martyr," have caused significant concerns both domestically and internationally. Content propagated in articles of different websites cited in your letter may not have fully captured the complexities of the legal cases surrounding Mr. Khan and the broader political environment in Pakistan.\n
-                    It is important to acknowledge that Pakistan's political landscape is deeply complex. The country faces numerous internal challenges, including terrorism, economic difficulties, and political instability. Any external pressure on the government may unintentionally exacerbate these issues, making it harder to foster a peaceful and stable democracy. It is essential that the U.S. continues working with all stakeholders in Pakistan, rather than imposing harsh sanctions or pressures, which might alienate important partners and destabilize the region further.\n
-                    I respectfully urge you to reconsider your stance in light of the points I have raised and to consider a broader spectrum of perspectives when assessing the situation before making further decisions or statements regarding Pakistan’s internal affairs.\n\nRegards,`;
-
-                    // Set the single selected congressman in an array for consistency
-                    selectedCongressmen = [congressmanData];
-                }
-            } else {
-                // Select 10 random congressmen if no specific selection is made
-                selectedCongressmen = getRandomCongressmen(10);
-                emailBody = defaultEmailBody;  // Use default email body
-            }
-
-            if (selectedCongressmen.length) {
-                // Concatenate the email addresses of all selected congressmen
-                const emailAddresses = selectedCongressmen.map(congressman => congressman.email).join(',');
-
-                // Create the mailto link with all recipients, subject, and encoded body
-                const mailtoLink = `mailto:${emailAddresses}?subject=${encodeURIComponent('Concerns from a constituent')}&body=${encodeURIComponent(emailBody)}`;
-
-                // Enable the send button and set the href attribute for the mailto link
-                sendEmailLink.disabled = false;
-                sendEmailLink.href = mailtoLink;
-
-                // Update the textarea to show the email body
-                emailTextArea.textContent = emailBody;
-            } else {
-                // Reset if no valid selection
-                emailTextArea.textContent = '';
-                sendEmailLink.disabled = true;
-                sendEmailLink.href = '#';
-            }
-        }
-
-        // Initialize mailto link with 10 random congressmen
-        updateMailtoLink(null, null);
+        // Display initial default email body in textarea
+        emailTextArea.textContent = decodeURIComponent(defaultEmailBody).replace(/%0A/g, '\n');
 
         // Populate the dropdowns with options
         congressmen.forEach(congressman => {
@@ -95,6 +35,75 @@ fetch('congressmen.json')
             constituencyOption.textContent = congressman.constituency;
             constituencyDropdown.appendChild(constituencyOption);
         });
+
+        // Function to get 10 random congressmen
+        function getRandomCongressmen(count) {
+            const shuffled = [...congressmen].sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, count);
+        }
+
+        // Function to update the mailto link based on selection or default
+        function updateMailtoLink(selectedCongressman, selectedConstituency) {
+            let selectedCongressmen;
+            let emailBody;
+
+            // Determine whether to use a specific or default body
+            if (selectedCongressman || selectedConstituency) {
+                // Find the selected congressman
+                const congressmanData = congressmen.find(
+                    congressman => congressman.name === selectedCongressman || congressman.constituency === selectedConstituency
+                );
+                
+                if (congressmanData) {
+                    // Custom email body for the selected congressman
+                    emailBody = `Dear ${congressmanData.name},
+                    I hope this message finds you well. As a U.S. citizen of Pakistani origin, I am writing to express my concerns as a constituent of ${congressmanData.constituency} ${congressmanData.position}. I deeply value the commitment of Congressmen towards protecting democracy and human rights around the globe. Your recent letter to President Biden, though well-intended, does not fully account for the realities and complexities on ground and inadvertently misrepresents certain aspects of the situation.
+                    I believe that certain aspects have been biasedly presented due to the influence of coordinated campaigns by lobbying firms hired by PTI. Pakistan’s recent elections were conducted under the supervision of international observers, including UN, and were found to meet acceptable standards without any significant concerns of fraud or irregularities.
+                    The letter focuses on one political party and shows a clear bias. In reality, Mr. Imran Khan faces numerous criminal charges, some of which have been validated by lower courts, and his trials are ongoing in accordance with Pakistan's judicial system. I believe it may be premature to portray Mr. Khan's imprisonment as purely politically motivated or as a result of human rights violations without acknowledging the broader legal context.
+                    Moreover, Mr. Khan's divisive political approach, including his failure to foster inclusivity and his rhetoric for civil disobedience, coupled with violent protests incited by his supporters, has resulted in a lot of instability in Pakistan.
+                    Mr. Khan's controversial stances, such as his support for the Taliban during the U.S. military efforts in Afghanistan and his characterization of Osama bin Laden as a "martyr," have caused significant concerns both domestically and internationally.
+                    It is important to acknowledge that Pakistan's political landscape is deeply complex. The country faces numerous internal challenges, including terrorism, economic difficulties, and political instability. Any external pressure on the government may unintentionally exacerbate these issues, making it harder to foster a peaceful and stable democracy. It is essential that the U.S. continues working with all stakeholders in Pakistan, rather than imposing harsh sanctions or pressures, which might alienate important partners and destabilize the region further.
+                    I respectfully urge you to reconsider your stance in light of the points I have raised and to consider a broader spectrum of perspectives when assessing the situation before making further decisions or statements regarding Pakistan’s internal affairs.%0A%0ARegards,`;
+
+                    // Set the selected congressman as the recipient
+                    selectedCongressmen = [congressmanData];
+
+                    // Synchronize dropdowns
+                    if (selectedCongressman) {
+                        constituencyDropdown.value = congressmanData.constituency;
+                    } else {
+                        congressmanDropdown.value = congressmanData.name;
+                    }
+                }
+            } else {
+                // Select 10 random congressmen and set the default email body
+                selectedCongressmen = getRandomCongressmen(10);
+                emailBody = defaultEmailBody;
+            }
+
+            if (selectedCongressmen.length) {
+                // Concatenate the email addresses of all selected congressmen
+                const emailAddresses = selectedCongressmen.map(congressman => congressman.email).join(',');
+
+                // Create the mailto link with all recipients, subject, and encoded body
+                const mailtoLink = `mailto:${emailAddresses}?subject=${encodeURIComponent('Concerns from a constituent')}&body=${emailBody}`;
+
+                // Enable the send button and set the href attribute for the mailto link
+                sendEmailLink.disabled = false;
+                sendEmailLink.href = mailtoLink;
+
+                // Update the textarea to show the email body in readable form
+                emailTextArea.textContent = decodeURIComponent(emailBody).replace(/%0A/g, '\n');
+            } else {
+                // Reset if no valid selection
+                emailTextArea.textContent = '';
+                sendEmailLink.disabled = true;
+                sendEmailLink.href = '#';
+            }
+        }
+
+        // Initialize mailto link with 10 random congressmen
+        updateMailtoLink(null, null);
 
         // Event listeners for both congressman and constituency dropdowns
         congressmanDropdown.addEventListener('change', function () {

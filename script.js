@@ -18,8 +18,7 @@ fetch('congressmen.json')
         Moreover, Mr. Khan's divisive political approach, including his failure to foster inclusivity and his rhetoric for civil disobedience, coupled with violent protests incited by his supporters, has resulted in a lot of instability in Pakistan.
         Mr. Khan's controversial stances, such as his support for the Taliban during the U.S. military efforts in Afghanistan and his characterization of Osama bin Laden as a "martyr," have caused significant concerns both domestically and internationally.
         It is important to acknowledge that Pakistan's political landscape is deeply complex. The country faces numerous internal challenges, including terrorism, economic difficulties, and political instability. Any external pressure on the government may unintentionally exacerbate these issues, making it harder to foster a peaceful and stable democracy. It is essential that the U.S. continues working with all stakeholders in Pakistan, rather than imposing harsh sanctions or pressures, which might alienate important partners and destabilize the region further.
-        I respectfully urge you to reconsider your stance in light of the points I have raised and to consider a broader spectrum of perspectives when assessing the situation before making further decisions or statements regarding Pakistan’s internal affairs.
-        Regards,`;
+        I respectfully urge you to reconsider your stance in light of the points I have raised and to consider a broader spectrum of perspectives when assessing the situation before making further decisions or statements regarding Pakistan’s internal affairs.\nRegards,`;
 
         // Display initial default email body
         emailTextArea.textContent = decodeURIComponent(defaultEmailBody).replace(/%0A/g, '\n');
@@ -64,8 +63,7 @@ fetch('congressmen.json')
                     Moreover, Mr. Khan's divisive political approach, including his failure to foster inclusivity and his rhetoric for civil disobedience, coupled with violent protests incited by his supporters, has resulted in a lot of instability in Pakistan.
                     Mr. Khan's controversial stances, such as his support for the Taliban during the U.S. military efforts in Afghanistan and his characterization of Osama bin Laden as a "martyr," have caused significant concerns both domestically and internationally.
                     It is important to acknowledge that Pakistan's political landscape is deeply complex. The country faces numerous internal challenges, including terrorism, economic difficulties, and political instability. Any external pressure on the government may unintentionally exacerbate these issues, making it harder to foster a peaceful and stable democracy. It is essential that the U.S. continues working with all stakeholders in Pakistan, rather than imposing harsh sanctions or pressures, which might alienate important partners and destabilize the region further.
-                    I respectfully urge you to reconsider your stance in light of the points I have raised and to consider a broader spectrum of perspectives when assessing the situation before making further decisions or statements regarding Pakistan’s internal affairs.
-                    Regards,`;
+                    I respectfully urge you to reconsider your stance in light of the points I have raised and to consider a broader spectrum of perspectives when assessing the situation before making further decisions or statements regarding Pakistan’s internal affairs.\nRegards,`;
 
                     // Set the selected congressman as the recipient
                     selectedCongressmen = [congressmanData];

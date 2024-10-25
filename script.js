@@ -19,7 +19,7 @@ fetch('congressmen.json')
 
             const constituencyOption = document.createElement('option');
             constituencyOption.value = congressman.constituency;
-            constituencyOption.textContent = congressman.constituency;
+            constituencyOption.textContent = (congressman.constituency + congressman.position);
             constituencyDropdown.appendChild(constituencyOption);
         });
 
@@ -35,7 +35,7 @@ fetch('congressmen.json')
                 constituencyDropdown.value = congressmanData.constituency;
 
                 // Construct the email body dynamically
-                const emailBody = `Dear ${congressmanData.name},\n\nI am writing to express my concerns as a constituent of ${congressmanData.constituency}. Please address these issues at your earliest convenience.\n\nRegards,`;
+                const emailBody = `Dear ${congressmanData.name},\n\nI am writing to express my concerns as a constituent of ${congressmanData.constituency} + ${congressmanData.position}. Please address these issues at your earliest convenience.\n\nRegards,`;
 
                 // Set the textarea content
                 emailTextArea.textContent = emailBody;

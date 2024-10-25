@@ -1,0 +1,446 @@
+{
+    "congressmen": [
+      {
+        "name": "jamessss",
+        "constituency": "jX-35",
+        "religion": "Christian",
+        "position": "Member for Texas's 35th congressional district",
+        "email": "jamesschadwick2023@gmail.com"
+      },
+      {
+        "name": "Greg Casar",
+        "constituency": "TX-35",
+        "religion": "Christian",
+        "position": "Member for Texas's 35th congressional district",
+        "email": "greg.casar@mail.house.gov"
+      },
+      {
+        "name": "Jim McGovern",
+        "constituency": "MA-02",
+        "religion": "Roman Catholic",
+        "position": "Representing Massachusetts's 2nd congressional district",
+        "email": "josh@jimmcgovern.com"
+      },
+      {
+        "name": "Summer Lee",
+        "constituency": "PA-12",
+        "religion": "Christian",
+        "position": "U.S. representative for Pennsylvania's 12th congressional district",
+        "email": "press@summerforpa.com"
+      },
+      {
+        "name": "Don Beyer",
+        "constituency": "VA-08",
+        "religion": "Episcopalian",
+        "position": "US representative for Virginia's 8th congressional district",
+        "email": "don@friendsofdonbeyer.com"
+      },
+      {
+        "name": "Suzanne Bonamici",
+        "constituency": "OR-01",
+        "religion": "Unitarian Universalist",
+        "position": "US representative for Oregon's 1st congressional district",
+        "email": "bonamici.house.gov"
+      },
+      {
+        "name": "Jamaal Bowman",
+        "constituency": "NY-16",
+        "religion": "Christian",
+        "position": "United States representative for New York's 16th congressional district",
+        "email": "info@bowmanforcongress.com"
+      },
+      {
+        "name": "Cori Bush",
+        "constituency": "MO-01",
+        "religion": "Christian",
+        "position": "US representative for Missouri's 1st congressional district",
+        "email": "press@coribush.org"
+      },
+      {
+        "name": "André Carson",
+        "constituency": "IN-07",
+        "religion": "Muslim",
+        "position": "US representative for Indiana's 7th congressional district",
+        "email": "copeland.tucker2@mail.house.gov"
+      },
+      {
+        "name": "Joaquin Castro",
+        "constituency": "TX-20",
+        "religion": "Roman Catholic",
+        "position": "Texas's 20th congressional district in the United States House of Representatives",
+        "email": "joaquin.castro@mail.house.gov"
+      },
+      {
+        "name": "Judy Chu",
+        "constituency": "CA-28",
+        "religion": "Unitarian Universalist",
+        "position": "U.S. representative for California's 28th congressional district",
+        "email": "congressmemberjudychu@gmail.com"
+      },
+      {
+        "name": "Yvette Clarke",
+        "constituency": "NY-09",
+        "religion": "Christian",
+        "position": "U.S. representative for New York's 9th congressional district",
+        "email": "clarkeforcongress@gmail.com"
+      },
+      {
+        "name": "Steve Cohen",
+        "constituency": "TN-09",
+        "religion": "Jewish",
+        "position": "U.S. representative from Tennessee's 9th congressional district",
+        "email": "steve.cohen@elections.facebook.com"
+      },
+      {
+        "name": "Joe Courtney",
+        "constituency": "CT-02",
+        "religion": "Roman Catholic",
+        "position": "US representative for Connecticut's 2nd congressional district",
+        "email": "Info@JoeCourtney.com"
+      },
+      {
+        "name": "Madeleine Dean",
+        "constituency": "PA-04",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for Pennsylvania's 4th congressional district",
+        "email": "madeline.dean@gmail.com"
+      },
+      {
+        "name": "Rosa DeLauro",
+        "constituency": "CT-03",
+        "religion": "Roman Catholic",
+        "position": "US representative for Connecticut's 3rd congressional district",
+        "email": "RosaDC.Schedule@mail.house.gov"
+      },
+      {
+        "name": "Mark DeSaulnier",
+        "constituency": "CA-10",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative from California's 10th congressional district",
+        "email": "mark.desaulnier@gmail.com"
+      },
+      {
+        "name": "Lloyd Doggett",
+        "constituency": "TX-37",
+        "religion": "Christian",
+        "position": "US representative from Texas",
+        "email": "lloyd.doggett@mail.house.gov"
+      },
+      {
+        "name": "Veronica Escobar",
+        "constituency": "TX-16",
+        "religion": "Roman Catholic",
+        "position": "US representative for Texas's 16th congressional district",
+        "email": "veronica.escobar@mail.house.gov"
+      },
+      {
+        "name": "Maxwell Frost",
+        "constituency": "FL-10",
+        "religion": "Christian",
+        "position": "U.S. representative for Florida's 10th congressional district",
+        "email": "maxwell.f@mail.house.gov"
+      },
+      {
+        "name": "Jesús “Chuy” García",
+        "constituency": "IL-04",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for Illinois's 4th district",
+        "email": "info@chuyforcongress.com"
+      },
+      {
+        "name": "Robert Garcia",
+        "constituency": "CA-42",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for California's 42nd congressional district",
+        "email": "Crgdistrict@mail.house.gov"
+      },
+      {
+        "name": "Dan Goldman",
+        "constituency": "NY-10",
+        "religion": "Jewish",
+        "position": "U.S. House of Representatives from New York's 10th congressional district",
+        "email": "dan.goldman@gmail.com"
+      },
+      {
+        "name": "Vicente Gonzalez",
+        "constituency": "TX-34",
+        "religion": "Roman Catholic",
+        "position": "United States representative for Texas's 34th congressional district",
+        "email": "vgonzalezforcongress@gmail.com"
+      },
+      {
+        "name": "Raúl Grijalva",
+        "constituency": "AZ-07",
+        "religion": "Roman Catholic",
+        "position": "United States representative for Arizona's 7th congressional district",
+        "email": "info@standwithraul.com"
+      },
+      {
+        "name": "Eleanor Holmes Norton",
+        "constituency": "DC",
+        "religion": "Episcopalian",
+        "position": "US House of Representatives",
+        "email": "citizenstoelectnorton@gmail.com"
+      },
+      {
+        "name": "Jahana Hayes",
+        "constituency": "CT-05",
+        "religion": "Christian",
+        "position": "US representative for Connecticut's 5th congressional district",
+        "email": "info@jahanahayes.com"
+      },
+      {
+        "name": "Jared Huffman",
+        "constituency": "CA-02",
+        "religion": "Atheist",
+        "position": "US representative for California's 2nd congressional district",
+        "email": "jared.huffman@mail.house.gov"
+      },
+      {
+        "name": "Jonathan Jackson",
+        "constituency": "IL-01",
+        "religion": "Christian",
+        "position": "US representative for Illinois's 1st congressional district",
+        "email": "info@jonathanjacksonforcongress.com"
+      },
+      {
+        "name": "Pramila Jayapal",
+        "constituency": "WA-07",
+        "religion": "Hindu",
+        "position": "US representative from Washington's 7th congressional district",
+        "email": "Jayapal.Casework@mail.house.gov"
+      },
+      {
+        "name": "Hank Johnson",
+        "constituency": "GA-04",
+        "religion": "Christian",
+        "position": "US representative for Georgia's 4th congressional district",
+        "email": "press.chj@mail.house.gov"
+      },
+      {
+        "name": "Ro Khanna",
+        "constituency": "CA-17",
+        "religion": "Hindu",
+        "position": "U.S. representative from California's 17th congressional district",
+        "email": "info@RoKhanna.com"
+      },
+      {
+        "name": "Dan Kildee",
+        "constituency": "MI-08",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative from Michigan 8th congressional district",
+        "email": "campaign@dankildee.com"
+      },
+      {
+        "name": "Raja Krishnamoorthi",
+        "constituency": "IL-08",
+        "religion": "Hindu",
+        "position": "U.S. representative for Illinois's 8th congressional district",
+        "email": "info@rajaforcongress.com"
+      },
+      {
+        "name": "Greg Landsman",
+        "constituency": "OH-01",
+        "religion": "Jewish",
+        "position": "U.S. representative from Ohio's 1st congressional district",
+        "email": "greglandsman1@gmail.com"
+      },
+      {
+        "name": "John Larson",
+        "constituency": "CT-01",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for Connecticut's 1st congressional district",
+        "email": "info@larsonforcongress.org"
+      },
+      {
+        "name": "Barbara Lee",
+        "constituency": "CA-12",
+        "religion": "Christian",
+        "position": "U.S. House of Representatives from California's 12th congressional district",
+        "email": "barbara.lee@mail.house.gov"
+      },
+      {
+        "name": "Ted Lieu",
+        "constituency": "CA-36",
+        "religion": "Presbyterian",
+        "position": "U.S. House of Representatives from California's 36th congressional district",
+        "email": "lieu.scheduling@mail.house.gov"
+      },
+      {
+        "name": "Stephen F. Lynch",
+        "constituency": "MA-08",
+        "religion": "Roman Catholic",
+        "position": "U.S. House of Representatives from Massachusetts's 8th congressional district",
+        "email": "info@stephenflynch.com"
+      },
+      {
+        "name": "Alexandria Ocasio-Cortez",
+        "constituency": "NY-14",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for New York's 14th congressional district",
+        "email": "aoc.schedule@mail.house.gov"
+      },
+      {
+        "name": "Ilhan Omar",
+        "constituency": "MN-05",
+        "religion": "Muslim",
+        "position": "U.S. representative for Minnesota's 5th congressional district",
+        "email": "info@ilhanomar.com"
+      },
+      {
+        "name": "Frank Pallone",
+        "constituency": "NJ-06",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for New Jersey's 6th congressional district",
+        "email": "-"
+      },
+      {
+        "name": "Mark Pocan",
+        "constituency": "WI-02",
+        "religion": "Jewish",
+        "position": "U.S. representative from Wisconsin's 2nd congressional district",
+        "email": "mark.pocan@gmail.com"
+      },
+      {
+        "name": "Ayanna Pressley",
+        "constituency": "MA-07",
+        "religion": "Christian",
+        "position": "U.S. representative for Massachusetts's 7th congressional district",
+        "email": "info@ayannapressley.com"
+      },
+      {
+        "name": "Mike Quigley",
+        "constituency": "IL-05",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for Illinois's 5th congressional district",
+        "email": "quigleyforcongress@gmail.com"
+      },
+      {
+        "name": "Delia C. Ramirez",
+        "constituency": "IL-03",
+        "religion": "Christian",
+        "position": "U.S. representative from Illinois's 3rd congressional district",
+        "email": "info@repdeliaramirez.com"
+      },
+      {
+        "name": "Jaime Raskin",
+        "constituency": "MD-08",
+        "religion": "Jewish",
+        "position": "U.S. representative for Maryland's 8th congressional district",
+        "email": "jamie.raskin@gmail.com"
+      },
+      {
+        "name": "Andrea Salinas",
+        "constituency": "OR-06",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for Oregon's 6th congressional district",
+        "email": "campaign@andreasalinasfororegon.com"
+      },
+      {
+        "name": "Linda T. Sánchez",
+        "constituency": "CA-38",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for California's 38th congressional district",
+        "email": "sthevanie.lopez-amaro@mail.house.gov"
+      },
+      {
+        "name": "Jan Schakowsky",
+        "constituency": "IL-09",
+        "religion": "Jewish",
+        "position": "U.S. representative from Illinois's 9th congressional district",
+        "email": "Jan.schakowsky@mail.house.gov"
+      },
+      {
+        "name": "Brad Sherman",
+        "constituency": "CA-32",
+        "religion": "Jewish",
+        "position": "U.S. representative for California's 32nd congressional district",
+        "email": "Brad.Sherman@mail.house.gov"
+      },
+      {
+        "name": "Melanie Stansbury",
+        "constituency": "NM-01",
+        "religion": "Christian",
+        "position": "U.S. representative from New Mexico's 1st congressional district",
+        "email": "melanieforcongress@melaniefornm.com"
+      },
+      {
+        "name": "Dina Titus",
+        "constituency": "NV-20",
+        "religion": "Greek Orthodox",
+        "position": "United States representative for Nevada's 1st congressional district",
+        "email": "Dina.titus@unlv.edu"
+      },
+      {
+        "name": "Rashida Tlaib",
+        "constituency": "MI-12",
+        "religion": "Muslim",
+        "position": "U.S. representative for Michigan's 12th congressional district",
+        "email": "info@rashidaforcongress.com"
+      },
+      {
+        "name": "Jill Tokuda",
+        "constituency": "HI-02",
+        "religion": "Christian",
+        "position": "U.S. representative for Hawaii's 2nd congressional district",
+        "email": "jntokuda@gmail.com"
+      },
+      {
+        "name": "Paul Tonko",
+        "constituency": "NY-20",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for New York's 20th congressional district",
+        "email": "amanda.boomhower@mail.house.gov"
+      },
+      {
+        "name": "David Trone",
+        "constituency": "MD-06",
+        "religion": "Christian",
+        "position": "U.S. representative from Maryland's 6th congressional district",
+        "email": "mdmanual@mdarchives.state.md.us"
+      },
+      {
+        "name": "Marc Veasey",
+        "constituency": "TX-33",
+        "religion": "Christian (Baptist)",
+        "position": "United States House of Representatives for Texas's 33rd congressional district",
+        "email": "Emily.Druckman@mail.house.gov"
+      },
+      {
+        "name": "Nydia Velázquez",
+        "constituency": "NY-07",
+        "religion": "Roman Catholic",
+        "position": "U.S. representative for New York's 7th district",
+        "email": "nydia.velazquez@mail.house.gov"
+      },
+      {
+        "name": "Debbie Wasserman Schultz",
+        "constituency": "FL-25",
+        "religion": "Jewish",
+        "position": "U.S. representative for Florida's 25th congressional district",
+        "email": "AskDebbie@DWSforCongress.com"
+      },
+      {
+        "name": "Maxine Waters",
+        "constituency": "CA-43",
+        "religion": "Christian",
+        "position": "U.S. representative for California's 43rd congressional district",
+        "email": "maxine.waters@mail.house.gov"
+      },
+      {
+        "name": "Bonnie Watson Coleman",
+        "constituency": "NJ-12",
+        "religion": "Christian",
+        "position": "U.S. representative for New Jersey's 12th congressional district",
+        "email": "bonnieforcongress@gmail.com"
+      },
+      {
+        "name": "Susan Wild",
+        "constituency": "PA-07",
+        "religion": "Jewish",
+        "position": "United States House of Representatives from Pennsylvania's 7th congressional district",
+        "email": "wild.press@mail.house.gov"
+      }
+    ]
+  }
+  

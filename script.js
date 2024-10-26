@@ -33,7 +33,7 @@ Regards`;
 
             const constituencyOption = document.createElement('option');
             constituencyOption.value = congressman.constituency;
-            constituencyOption.textContent = congressman.constituency;
+            constituencyOption.textContent = congressman.constituency +" "+congressman.position;
             constituencyDropdown.appendChild(constituencyOption);
         });
 
